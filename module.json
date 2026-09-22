@@ -1,0 +1,28 @@
+{
+  "id": "lipatos-item-charges-lock",
+  "title": "LipatoS - Запрет изменения зарядов",
+  "description": "Запрещает обычным игрокам вручную изменять количество зарядов предметов. Вместо всплывающих предупреждений показывает подсказку при наведении: «Количество изменяет только ГМ». Автоматический расход и восстановление механиками игры не блокируются.",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "LipatoS"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "manifest": "https://raw.githubusercontent.com/Lipatosha/LipatoS-item-charges-lock/main/module.json",
+  "download": "https://raw.githubusercontent.com/Lipatosha/LipatoS-item-charges-lock/main/lipatos-item-charges-lock-v1.0.1.zip"
+}
